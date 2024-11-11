@@ -1,0 +1,9 @@
+[package]
+name = "pfxsum"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+crossbeam = "0.8.4"
+crossbeam-utils = "0.8.20"
+vstd = { path = "/home/tewaro/Code/verus-proj/verus/source/vstd" }
